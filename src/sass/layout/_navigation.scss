@@ -28,7 +28,7 @@ nav {
   -webkit-tap-highlight-color: transparent;
   background-color: var(--bg-color-nav);
   border-radius: 1rem 1rem 0 0;
-  box-shadow: $box-shadow-tab;
+  //box-shadow: $box-shadow-tab; // Dont comply with flat design
 }
 
 .nav-tab:hover .nav-tab-title {
@@ -150,6 +150,7 @@ nav {
 
 .menu-item {
   margin-bottom: var(--space-s);
+  margin-bottom: var(--space-2xs);
   text-align: right;
 }
 

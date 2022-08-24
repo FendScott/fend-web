@@ -2,35 +2,72 @@
   background-color: var(--bg-color-opacity);
   padding-top: var(--space-l);
   padding-bottom: var(--space-l);
-  border-radius: 1rem 1rem 0 0;
+  //margin-left: var(--space-2xs-xs); // I added this but it messes mobile view dunno how to get that radius in there on the left side
+  border-radius: 1rem 0rem 0 0;
+
+  @include sm {
+    margin-left: var(--space-2xs-xs);
+  }
 
   &__title {
     font-size: var(--step-4);
-    line-height: .75;
+    line-height: 1.25;
     font-weight: $font-black;
-    position: sticky;
-    top: clamp(5rem, calc(4.5rem + 12vw), 14rem);
+    position: fixed;
+    //top: clamp(5rem, calc(4.5rem + 12vw), 14rem);
+    bottom: var(--space-xs);
     height: 0;
     width: fit-content;
-    padding-top: var(--gutter);
-    transform: rotate(-90deg) translateY(0) translateX(-100%);
+    padding-top: calc(var(--gutter-b) - var(--space-2xs-xs));
+    transform: rotate(-90deg) translateY(0) translateX(0%);
     transform-origin: top left;
 
-    @include xl {
-      margin-left: var(--space-xs);
+    @include sm {
+      margin-left: var(--space-3xs);
     }
   }
 
   &__text {
-    padding-left: var(--step-5);
+    //padding-left: var(--step-5);
+    //padding-right: var(--step-5);
+    //background-color: aqua;
+  }
+
+  &__bit-01,
+  &__bit-02,
+  &__bit-03,
+  &__bit-04,
+  &__bit-05 {
+    //background-color: rgb(158, 96, 21);
+    margin-bottom: var(--space-3xl);
+    padding-left: 30px;
+    border-left-width: 0.1rem;
+    border-left-style: solid;
+    border-left-color: var(--color-900);
+
+    .highlight-text{
+      color: var(--accent-darker);
+      //background-color: var(--accent-darker);
+    }
   }
 
   p {
-    font-size: var(--step-0);
+    font-size: var(--step--0);
     margin-bottom: var(--space-s);
-    
+
     &:last-of-type {
       margin-bottom: 0;
     }
   }
 }
+
+.container {
+  padding: calc(var(--space-xl) + var(--space-3xl));
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  //background-color: rgb(243, 32, 197);
+}
+

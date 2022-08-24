@@ -19,7 +19,8 @@
     --text-color-nav: var(--color-025);
     --text-color-link: var(--color-800);
     --text-color-darker: var(--color-900);
-    --accent: hsl(149, 82%, 44%);
+    --accent: #0af091;
+    --accent-darker: #09dc84;
     --border: var(--color-300);
     --border-light: var(--color-100);
     --bshadow: 0 .125rem rgba(0, 0, 0, .1);
@@ -30,6 +31,7 @@
     --step--3: clamp(0.51rem, calc(0.51rem + 0.02vw), 0.53rem);
     --step--2: clamp(0.64rem, calc(0.63rem + 0.06vw), 0.70rem);
     --step--1: clamp(0.80rem, calc(0.77rem + 0.14vw), 0.94rem);
+    --step--0: clamp(0.90rem, calc(0.85rem + 0.20vw), 1.10rem);
     --step-0: clamp(1.00rem, calc(0.95rem + 0.25vw), 1.25rem);
     --step-1: clamp(1.25rem, calc(1.17rem + 0.42vw), 1.67rem);
     --step-2: clamp(1.56rem, calc(1.43rem + 0.66vw), 2.22rem);
@@ -67,6 +69,7 @@
     --space-l-3xl: clamp(2.00rem, calc(-0.15rem + 10.73vw), 7.50rem);
     --space-xl-3xl: clamp(3.00rem, calc(1.24rem + 8.78vw), 7.50rem);
     --gutter: clamp(1.00rem, calc(0.70rem + 1.50vw), 2.50rem);
+    --gutter-b: clamp(0.50rem, calc(0.35rem + 0.75vw), 1.25rem);
 }
 
 $font-light: 300;

@@ -2,12 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--bg-color-nav);
+  background-color: var(--bg-color-opacity);
   text-align: center;
   padding: var(--space-2xs) 0;
 
   p, a {
-    color: var(--text-color-nav);
+    color: var(--color-800);
   }
 
   p {
