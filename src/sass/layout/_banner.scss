@@ -18,7 +18,17 @@
   padding-top: var(--gutter);
 
   h1 {
-    font-size: var(--step-1);
+    font-size: var(--step-2);
+    line-height: 2.5rem;
     padding-left: var(--step-5);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(238, 241, 240),
+    0 0 82px rgb(234, 237, 236),
+    0 0 92px rgb(216, 217, 217),
+    0 0 102px rgb(228, 232, 231),
+    0 0 151px rgb(211, 218, 216);
   }
 }
