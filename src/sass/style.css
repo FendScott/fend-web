@@ -11,6 +11,7 @@
   --color-800: hsl(240, 2%, 18%);
   --color-900: hsl(240, 3%, 11%);
   --bg-color-opacity: hsla(240, 24%, 96%, 0.95);
+  --bg-color-form: hsla(240, 24%, 96%, 0.10);
   --bg-color-nav: var(--color-900);
   --text-color: var(--color-800);
   --text-color-nav: var(--color-025);
@@ -87,6 +88,7 @@ img, picture, video, canvas, svg {
 
 input, button, textarea, select {
   font: inherit;
+  background-color: var(--bg-color-form);
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -178,11 +180,41 @@ a {
   background-image: url(/assets/img/about.jpg);
 }
 
+.page--contact {
+  background-image: url(/assets/img/FendImage-08.jpg);
+}
+
+.page--howitworks {
+  background-image: url(/assets/img/FendImage-29.jpg);
+}
+
+.page--paymenthelp {
+  background-image: url(/assets/img/FendImage-07.jpg);
+}
+
+.page--faq {
+  background-image: url(/assets/img/FendImage-29.jpg);
+}
+
+.page--privacy {
+  background-image: url(/assets/img/FendImage-23.jpg);
+}
+
+.page--media {
+  background-image: url(/assets/img/FendImage-29.jpg);
+}
+
 .page--volunteer {
-  background-image: url(/assets/img/volunteer.jpg);
+  background-image: url(/assets/img/FendImage-07.jpg);
 }
 
 .page--about,
+.page--contact,
+.page--howitworks,
+.page--paymenthelp,
+.page--faq,
+.page--privacy,
+.page--media,
 .page--volunteer {
   background-position: top;
   background-size: cover;
@@ -274,6 +306,29 @@ a {
 .highlight-this-text {
   color: var(--accent-darker);
   font-weight: 500;
+}
+
+/*------VOLUNTEER-------*/
+input[type=checkbox] {
+  transform: scale(1.5);
+  accent-color: var(--accent);
+}
+
+.volunteer-checklist {
+  margin: 0px;
+  padding: 0px;
+  list-style: none outside none;
+  line-height: var(--step-2);
+}
+
+.form-volunteer {
+  display: flex;
+  flex-flow: column;
+  height: 50vh;
+}
+.form-volunteer .input-volunteer-message {
+  width: 100%;
+  height: 100%;
 }
 
 .nav-wrapper {

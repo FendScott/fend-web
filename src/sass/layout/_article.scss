@@ -81,3 +81,34 @@
   //background-color: var(--accent-darker);
 }
 
+
+
+/*------VOLUNTEER-------*/
+
+input[type="checkbox"]{
+  transform: scale(1.5);
+  //margin-left: 11px;
+  //outline: 1px solid #1e5180;
+  accent-color: var(--accent);
+  //border-color: var(--accent);
+  //border-radius: 0px;
+}
+
+.volunteer-checklist{
+  margin: 0px;
+  padding: 0px;
+  list-style: none outside none;
+  line-height: var(--step-2);
+}
+
+.form-volunteer{
+  display: flex;
+  flex-flow: column;
+  height: 50vh;
+  //background-color: aquamarine;
+
+  .input-volunteer-message{
+    width: 100%;
+    height: 100%;
+  }
+}

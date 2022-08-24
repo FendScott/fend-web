@@ -2,12 +2,43 @@
   background-image: url(/assets/img/about.jpg);
 }
 
-.page--volunteer {
-  background-image: url(/assets/img/volunteer.jpg);
+.page--contact {
+  background-image: url(/assets/img/FendImage-08.jpg);
 }
 
-.page--about,
+.page--howitworks {
+  background-image: url(/assets/img/FendImage-29.jpg);
+}
+
+.page--paymenthelp {
+  background-image: url(/assets/img/FendImage-07.jpg);
+}
+
+.page--faq {
+  background-image: url(/assets/img/FendImage-29.jpg);
+}
+
+.page--privacy {
+  background-image: url(/assets/img/FendImage-23.jpg);
+}
+
+.page--media {
+  background-image: url(/assets/img/FendImage-29.jpg);
+}
+
 .page--volunteer {
+  background-image: url(/assets/img/FendImage-07.jpg);
+}
+
+
+.page--about,
+.page--contact,
+.page--howitworks,
+.page--paymenthelp,
+.page--faq,
+.page--privacy,
+.page--media,
+.page--volunteer{
   background-position: top;
   background-size: cover;
   background-attachment: fixed;
