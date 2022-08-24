@@ -28,28 +28,20 @@
   }
 
   &__text {
-    //padding-left: var(--step-5);
+    padding-left: var(--step-5);
     //padding-right: var(--step-5);
     //background-color: aqua;
   }
 
-  &__bit-01,
-  &__bit-02,
-  &__bit-03,
-  &__bit-04,
-  &__bit-05 {
-    //background-color: rgb(158, 96, 21);
+  &__bit-01 {
     margin-bottom: var(--space-3xl);
     padding-left: 30px;
     border-left-width: 0.1rem;
     border-left-style: solid;
     border-left-color: var(--color-900);
-
-    .highlight-text{
-      color: var(--accent-darker);
-      //background-color: var(--accent-darker);
-    }
+    //background-color: rgb(158, 96, 21);
   }
+
 
   p {
     font-size: var(--step--0);
@@ -69,5 +61,12 @@
   width: 100%;
   height: 100%;
   //background-color: rgb(243, 32, 197);
+}
+
+
+.highlight-this-text{
+  color: var(--accent-darker);
+  font-weight: 800;
+  //background-color: var(--accent-darker);
 }
 
